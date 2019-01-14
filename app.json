@@ -1,12 +1,31 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/center/center",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "养生",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "selectedColor": "red",
+    "color":"black",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text" :"菜谱",
+        "iconPath":"images/food.png",
+        "selectedIconPath":"images/food_on.png"
+      },
+      {
+        "pagePath":"pages/center/center",
+        "text" :"我的",
+        "iconPath": "images/center.png",
+        "selectedIconPath": "images/center_on.png"
+      }
+    ]
   }
 }
