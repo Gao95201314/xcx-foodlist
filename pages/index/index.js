@@ -4,7 +4,49 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    imgUrls:[
+      'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2735633715,2749454924&fm=27&gp=0.jpg',
+      'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=935292084,2640874667&fm=27&gp=0.jpg',
+      'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4127249999,3890697627&fm=27&gp=0.jpg',
+    ],
+    indicatorDots:true,
+    vertical:false,
+    circular:true,
+    autoplay:true,
+    interval:2000,
+    duration:500,
+    foodArr:[
+      {
+        url:'/pages/crop/crop',
+        src:'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4171942658,3402394313&fm=27&gp=0.jpg',
+        name:'五谷养生'
+      },
+      {
+        url:'/pages/doctor/doctor',
+        src:'http://img0.imgtn.bdimg.com/it/u=61474540,4260967176&fm=26&gp=0.jpg',
+        name:'中医养生'
+      },
+      {
+        url:'/pages/food/food',
+        src:'http://img1.imgtn.bdimg.com/it/u=962374716,3405171719&fm=26&gp=0.jpg',
+        name:'食疗养生'
+      },
+      {
+        url:'/pages/sleep/sleep',
+        src:'http://img5.imgtn.bdimg.com/it/u=4113954283,2556895520&fm=26&gp=0.jpg',
+        name:'睡眠养生'
+      },
+      {
+        url:'/pages/sport/sport',
+        src:'http://img2.imgtn.bdimg.com/it/u=1690024107,464927825&fm=26&gp=0.jpg',
+        name:'运动养生'
+      },
+      {
+        url:'/pages/tea/tea',
+        src:'http://img0.imgtn.bdimg.com/it/u=3225983062,50135618&fm=26&gp=0.jpg',
+        name:'喝茶养生'
+      }
+    ]
   },
 
   /**

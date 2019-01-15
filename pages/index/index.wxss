@@ -1,0 +1,28 @@
+.gao-main{
+  height:auto;
+}
+.page-body{
+  width:100%;
+  height:400rpx;
+}
+.slide-image{
+  width: 100%;
+  height:100%;
+}
+.gao-item{
+  display:flex;
+  padding:0 20rpx;
+  flex-wrap:wrap; 
+}
+.gao-item-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:20rpx 20rpx;
+
+}
+.gao-item-img{
+  width:200rpx;
+  height:200rpx;
+
+}
