@@ -1,1 +1,12 @@
 /* pages/center/center.wxss */
+.gao-center-clear{
+line-height: 100rpx;
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+padding-left:20rpx;
+}
+.gao-center-about{
+line-height: 100rpx;
+border-bottom: 1px solid #ccc;
+padding-left:20rpx;
+}

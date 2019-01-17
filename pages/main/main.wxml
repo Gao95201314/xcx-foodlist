@@ -1,2 +1,6 @@
 <!--pages/main/main.wxml-->
-<text>pages/main/main.wxml</text>
+<view class="page-body">
+  <view class="page-section tc" wx:for="{{url}}" wx:key="{{index}}">
+  <video src="{{item}}" class='video'></video>
+</view>
+</view>

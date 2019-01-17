@@ -1,2 +1,5 @@
 <!--pages/center/center.wxml-->
-<text>我是center页面</text>
+<view class='gao-center'>
+<view class='gao-center-clear'>清除</view>
+<view class='gao-center-about'>关于我们</view>
+</view>

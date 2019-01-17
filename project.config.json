@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -12,7 +12,7 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
+	"libVersion": "2.5.0",
 	"appid": "wx4c4811fcfd5caf4f",
 	"projectname": "Myxcx",
 	"debugOptions": {
@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -59,6 +59,11 @@
 					"pathName": "pages/doctor/doctor",
 					"query": "",
 					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "发现",
+					"pathName": "pages/main/main"
 				}
 			]
 		}
