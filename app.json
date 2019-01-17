@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/main/main",
     "pages/center/center",
     "pages/logs/logs",
     "pages/crop/crop",
@@ -8,7 +9,8 @@
     "pages/food/food",
     "pages/sleep/sleep",
     "pages/sport/sport",
-    "pages/tea/tea"
+    "pages/them/them",
+    "pages/cropitem/cropitem"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -25,6 +27,12 @@
         "text" :"首页",
         "iconPath":"images/food.png",
         "selectedIconPath":"images/food_on.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "发现",
+        "iconPath": "images/ask.png",
+        "selectedIconPath": "images/ask_on.png"
       },
       {
         "pagePath":"pages/center/center",

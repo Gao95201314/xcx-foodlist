@@ -1,1 +1,11 @@
 /* pages/crop/crop.wxss */
+.gao-crop{
+  height:100%;
+}
+.gao-crop-item{
+  height:100%;
+}
+.gao-crop-title{
+  text-align: center;
+  line-height:100rpx;
+}

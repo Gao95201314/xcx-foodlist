@@ -19,32 +19,32 @@ Page({
       {
         url:'/pages/crop/crop',
         src:'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4171942658,3402394313&fm=27&gp=0.jpg',
-        name:'五谷养生'
+        name:'资讯'
       },
       {
         url:'/pages/doctor/doctor',
         src:'http://img0.imgtn.bdimg.com/it/u=61474540,4260967176&fm=26&gp=0.jpg',
-        name:'中医养生'
+        name:'中医'
       },
       {
         url:'/pages/food/food',
         src:'http://img1.imgtn.bdimg.com/it/u=962374716,3405171719&fm=26&gp=0.jpg',
-        name:'食疗养生'
+        name:'膳食'
       },
       {
         url:'/pages/sleep/sleep',
         src:'http://img5.imgtn.bdimg.com/it/u=4113954283,2556895520&fm=26&gp=0.jpg',
-        name:'睡眠养生'
+        name:'食物库'
       },
       {
         url:'/pages/sport/sport',
         src:'http://img2.imgtn.bdimg.com/it/u=1690024107,464927825&fm=26&gp=0.jpg',
-        name:'运动养生'
+        name:'运动'
       },
       {
-        url:'/pages/tea/tea',
+        url:'/pages/them/them',
         src:'http://img0.imgtn.bdimg.com/it/u=3225983062,50135618&fm=26&gp=0.jpg',
-        name:'喝茶养生'
+        name:'专题'
       }
     ]
   },

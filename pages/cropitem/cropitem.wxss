@@ -1,0 +1,5 @@
+/* pages/cropitem/cropitem.wxss */
+.gap-crop-detail{
+  line-height: 80rpx;
+  padding: 0 20rpx;
+}

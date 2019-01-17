@@ -28,13 +28,39 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "五谷",
+					"pathName": "pages/crop/crop",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "五谷yang",
+					"pathName": "pages/cropitem/cropitem",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "中医",
+					"pathName": "pages/doctor/doctor",
+					"query": "",
+					"scene": "1001"
+				}
+			]
 		}
 	}
 }

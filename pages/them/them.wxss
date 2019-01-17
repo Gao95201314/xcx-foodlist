@@ -1,0 +1,16 @@
+/* pages/doctor/doctor.wxss */
+.gao-them{
+  height:100%;
+}
+.gao-them-item{
+  margin-bottom: 20rpx;
+}
+.gao-them-img{
+  height:200rpx;
+  background: red;
+}
+.gao-them-litter{
+  height:200rpx;
+  font-size: 30rpx;
+  line-height:40rpx;
+  }

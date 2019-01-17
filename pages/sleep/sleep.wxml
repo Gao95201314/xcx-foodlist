@@ -1,2 +1,15 @@
-<!--pages/sleep/sleep.wxml-->
-<text>pages/sleep/sleep.wxml</text>
+<!--pages/doctor/doctor.wxml-->
+<view class='gao-doctor'>
+<view class='gao-doctor-item'>
+<image class='gao-doctor-img'></image>
+<view class='gao-doctor-litter'>
+<view class='gao-doctor-top'>
+打通经络可除百病你知道吗
+</view>
+<view class='gao-doctor-buttom'>
+【导读】打通经络可除百病你知道吗？经络养生法，主要就是选择按摩一些经络比较多的部位，而经络比较多的部位比较典型的就是脸部以及脚部，所以
+经络养生法，梳头...
+</view>
+</view>
+</view>
+</view>

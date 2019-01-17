@@ -1,1 +1,26 @@
-/* pages/food/food.wxss */
+/* pages/doctor/doctor.wxss */
+.gao-doctor{
+  height:100%;
+}
+.gao-doctor-item{
+  height:300rpx;
+  display: flex;
+}
+.gao-doctor-img{
+  flex:1;
+  height:100%;
+  background: red; 
+}
+.gao-doctor-litter{
+  flex:2;
+  height:100%;
+  background: yellow;
+  margin-left:20rpx;
+}
+.gao-doctor-top{
+ margin-top:10rpx;
+}
+.gao-doctor-buttom{
+  margin-top:40rpx; 
+  font-size: 30rpx;
+}

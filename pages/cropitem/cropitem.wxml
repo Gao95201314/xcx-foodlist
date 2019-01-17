@@ -1,0 +1,10 @@
+<!--pages/cropitem/cropitem.wxml-->
+<view class='gap-crop-detail'>
+<view><text>1.滋养延年，智慧配方：黑芝麻，核桃</text></view>
+<view><text>2.养血养颜配方：红枣、枸杞、黑米、黑豆、花生、核桃</text></view>
+<view><text>3.开胃健脾宝宝配方：山楂、腰果、糙米、黑芝麻黑米、燕麦、红枣、淮山</text></view>
+<view><text>4.祛湿清热美白配方：莲子、茯苓、芡实、薏米、黑芝麻、核桃、黑米、黑豆</text></view>
+<view><text>5.排毒纤体，姚姚配方：绿茶、花生、大麦、黑豆、糙米、南瓜子</text></view>
+<view><text>6.降压高配方：荞麦、燕麦、玉米、黄豆、花生</text></view>
+<view><text>7.补肾助元、乌发配方：芡实、首乌、黑豆、葵花籽、核桃、枸杞、大麦、黑芝麻</text></view>
+</view>

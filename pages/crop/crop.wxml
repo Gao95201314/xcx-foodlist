@@ -1,2 +1,27 @@
 <!--pages/crop/crop.wxml-->
-<text>pages/crop/crop.wxml</text>
+<view class='gao-crop'>
+<navigator class='gao-crop-item' url='/pages/cropitem/cropitem'>
+<image class='gao-crop-img' src='http://image109.360doc.com/DownloadImg/2018/08/2307/142097300_1_20180823075026755.jpeg'></image>
+<view class='gao-crop-title'>
+五谷杂粮养生粉配方
+</view>
+</navigator>
+<navigator class='gao-crop-item' url=''>
+<image class='gao-crop-img' src='http://image109.360doc.com/DownloadImg/2018/08/2307/142097300_2_20180823075027161.jpeg'></image>
+<view class='gao-crop-title'>
+五谷食疗养生配方
+</view>
+</navigator>
+<navigator class='gao-crop-item' url=''>
+<image class='gao-crop-img' src='http://img1.imgtn.bdimg.com/it/u=770757960,2074692115&fm=26&gp=0.jpg'></image>
+<view class='gao-crop-title'>
+五谷杂粮养生配方
+</view>
+</navigator>
+<navigator class='gao-crop-item' url=''>
+<image class='gao-crop-img' src='https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=423069969,1377962000&fm=27&gp=0.jpg'></image>
+<view class='gao-crop-title'>
+五谷养生配方推荐
+</view>
+</navigator>
+</view>
