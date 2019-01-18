@@ -1,5 +1,14 @@
 <!--pages/center/center.wxml-->
 <view class='gao-center'>
-<view class='gao-center-clear'>清除</view>
+<view  class='gao-center-login'>
+<image src='{{userimg}}' class='gao-center-img' bindtap='changeImage'></image>
+<view class='gao-center-item'>{{username}}</view>
+</view>
+<view class='gao-center-clear'>
+<view>清除</view>
+<view>0KB</view>
+</view>
 <view class='gao-center-about'>关于我们</view>
 </view>
+
+

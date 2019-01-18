@@ -12,7 +12,7 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.5.0",
+	"libVersion": "2.3.2",
 	"appid": "wx4c4811fcfd5caf4f",
 	"projectname": "Myxcx",
 	"debugOptions": {
@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
@@ -63,7 +63,14 @@
 				{
 					"id": -1,
 					"name": "发现",
-					"pathName": "pages/main/main"
+					"pathName": "pages/main/main",
+					"query": ""
+				},
+				{
+					"id": 4,
+					"name": "我的",
+					"pathName": "pages/center/center",
+					"query": ""
 				}
 			]
 		}

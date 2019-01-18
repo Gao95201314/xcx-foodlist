@@ -1,6 +1,6 @@
 <!--pages/main/main.wxml-->
 <view class="page-body">
   <view class="page-section tc" wx:for="{{url}}" wx:key="{{index}}">
-  <video src="{{item}}" class='video'></video>
+  <video id="{{index+1}}" src="{{item}}" class='video' bindtap='videoPlay'></video>
 </view>
 </view>

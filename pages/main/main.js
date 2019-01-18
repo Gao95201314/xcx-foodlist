@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    playIndex: null,//用于记录当前播放的视频的索引值
     url: [],//video组件可用的url链接
     arr: ['https://v.qq.com/txp/iframe/player.html?vid=m0827jfx7mv', 'https://v.qq.com/txp/iframe/player.html?vid=g08260q1y9x', 'https://v.qq.com/txp/iframe/player.html?vid=t0507dzy0h8', 'https://v.qq.com/txp/iframe/player.html?vid=a0637wo1zhz', 'https://v.qq.com/txp/iframe/player.html?vid=s0820t3fq5u', 'https://v.qq.com/txp/iframe/player.html?vid=m0826bcmn97','https://v.qq.com/txp/iframe/player.html?vid=r0825t4zwmp'],
   },
@@ -60,7 +61,31 @@ Page({
      })
    }
   },
-
+  //判断播放下一个停止下一个
+  videoPlay:function(e){
+    var curIdx = e.target.id;
+    // 没有播放时播放视频
+    if (this.data.playIndex===null) {
+      this.setData({
+        playIndex: curIdx
+      })
+      var videoContext = wx.createVideoContext(curIdx); //这里对应的视频id
+      videoContext.play();
+      //进入全屏模拟器不可以手机可以
+      // videoContext.requestFullScreen({ direction: 0 })
+    }else{
+      if (this.data.playIndex != curIdx) {
+        // 有播放时先将prev暂停，再播放当前点击的current
+        var videoContextPrev = wx.createVideoContext(this.data.playIndex);
+        videoContextPrev.pause();
+        var videoContext = wx.createVideoContext(curIdx); //这里对应的视频id
+        videoContext.play();
+        this.setData({
+          playIndex: curIdx
+        })
+      }
+    }
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

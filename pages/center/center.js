@@ -5,13 +5,39 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    username:'',
+    userimg:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var that=this;
+    wx.getUserInfo({
+      success: function (res) {
+        that.setData({
+          username:res.userInfo.nickName,
+          userimg: res.userInfo.avatarUrl,
+        })
+      }
+    })
+  },
+  //换头像
+  changeImage:()=>{
+    wx.chooseImage({
+      count: 1,
+      sizeType: ['original', 'compressed'],
+      sourceType: ['album', 'camera'],
+      success(res) {
+        // tempFilePath可以作为img标签的src属性显示图片
+        const tempFilePaths = res.tempFilePaths
+         console.log(tempFilePaths);
+         this.setDate({
+           userimg:tempFilePaths,
+         })
+      }
+    })
 
   },
 
