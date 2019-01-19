@@ -19,6 +19,11 @@
 .gao-center-item{
  color:blue;
 }
+.gao-share{
+  line-height: 100rpx;
+  border-top:1rpx solid #ccc;
+  padding-left:20rpx;
+}
 .gao-center-clear{
 line-height: 100rpx;
 border-top: 1px solid #ccc;

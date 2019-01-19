@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 7,
 			"list": [
 				{
 					"id": -1,
@@ -77,6 +77,17 @@
 					"name": "运动",
 					"pathName": "pages/sport/sport",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "食物库",
+					"pathName": "pages/foodgroup/foodgroup",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "专题",
+					"pathName": "pages/theme/theme"
 				}
 			]
 		}

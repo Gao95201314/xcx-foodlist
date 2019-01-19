@@ -5,16 +5,16 @@
 .gao-doctor-item{
   height:300rpx;
   display: flex;
+  margin-right: 30rpx;
 }
 .gao-doctor-img{
   flex:1;
-  height:100%;
-  background: red; 
+  height:250rpx;
+    margin-left:20rpx;
 }
 .gao-doctor-litter{
   flex:2;
   height:100%;
-  background: yellow;
   margin-left:20rpx;
 }
 .gao-doctor-top{

@@ -4,6 +4,9 @@
 <image src='{{userimg}}' class='gao-center-img' bindtap='changeImage'></image>
 <view class='gao-center-item'>{{username}}</view>
 </view>
+<view class='gao-share' bindtap='sharefriend'>
+分享给朋友
+</view>
 <view class='gao-center-clear' bindtap='clearStorage'>
 <view>清除</view>
 <view>{{currentSize}}KB</view>

@@ -1,4 +1,10 @@
 /* pages/main/main.wxss */
+.page-body{
+  width:100%;
+}
+.page-section{
+  width:100%;
+}
 .video{
-  margin-left:24rpx;
+  width:100%;
 }

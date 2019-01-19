@@ -1,0 +1,17 @@
+<!--pages/doctor/doctor.wxml-->
+<view class='gao-foodgroup'>
+<view class='gao-foodgroup-good'>宜</view>
+<view class='gao-foodgroup-item' wx:for="{{goodgroup}}" wx:key="{{index}}">
+<view class='list-item'>
+<image class='img' src='{{item.img}}'></image>
+<view class='list-item-title'>{{item.title}}</view>
+</view>
+ </view>
+ <view class='gao-foodgroup-good'>忌</view>
+<view class='gao-foodgroup-item' wx:for="{{badgroup}}" wx:key="{{index}}">
+<view class='list-item'>
+<image class='img' src='{{item.img}}'></image>
+<view class='list-item-title'>{{item.title}}</view>
+</view>
+ </view>
+</view>

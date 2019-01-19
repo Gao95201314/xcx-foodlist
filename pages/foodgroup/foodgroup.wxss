@@ -1,0 +1,27 @@
+/* pages/doctor/doctor.wxss */
+.gao-foodgroup{
+  height:100%;
+}
+.gao-foodgroup-good{
+  line-height:100rpx;
+  border-bottom: 1px dotted #ccc;
+  font-size:40rpx;
+}
+.gao-foodgroup-item{
+  height:100%;
+}
+.list-item{
+  border-bottom: 1px dotted #ccc;
+  display: flex;
+  height:100rpx;
+}
+.img{
+  width:50rpx;
+  height:50rpx;
+  margin-left:20rpx;
+}
+.list-item-title{
+  line-height:60rpx;
+  font-size: 30rpx;
+
+}

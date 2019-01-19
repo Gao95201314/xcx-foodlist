@@ -6,8 +6,7 @@
   margin-bottom: 20rpx;
 }
 .gao-them-img{
-  height:200rpx;
-  background: red;
+  height:500rpx;
 }
 .gao-them-litter{
   height:200rpx;

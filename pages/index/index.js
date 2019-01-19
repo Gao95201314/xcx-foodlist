@@ -19,7 +19,7 @@ Page({
       {
         url:'/pages/crop/crop',
         src:'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4171942658,3402394313&fm=27&gp=0.jpg',
-        name:'资讯'
+        name:'五谷'
       },
       {
         url:'/pages/doctor/doctor',
@@ -32,7 +32,7 @@ Page({
         name:'膳食'
       },
       {
-        url:'/pages/sleep/sleep',
+        url:'/pages/foodgroup/foodgroup',
         src:'http://img5.imgtn.bdimg.com/it/u=4113954283,2556895520&fm=26&gp=0.jpg',
         name:'食物库'
       },
@@ -42,7 +42,7 @@ Page({
         name:'运动'
       },
       {
-        url:'/pages/them/them',
+        url:'/pages/theme/theme',
         src:'http://img0.imgtn.bdimg.com/it/u=3225983062,50135618&fm=26&gp=0.jpg',
         name:'专题'
       }

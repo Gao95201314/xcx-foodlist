@@ -1,0 +1,9 @@
+<!--pages/doctor/doctor.wxml-->
+<view class='gao-them'>
+<view class='gao-them-item' wx:for="{{themelist}}" wx:key="{{index}}">
+<image class='gao-them-img' src='{{item.img}}'></image>
+<view class='gao-them-litter'>
+{{item.theme}}
+</view>
+</view>
+</view>

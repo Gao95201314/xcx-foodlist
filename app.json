@@ -8,9 +8,9 @@
     "pages/crop/crop",
     "pages/doctor/doctor",
     "pages/food/food",
-    "pages/sleep/sleep",
+    "pages/foodgroup/foodgroup",
     "pages/sport/sport",
-    "pages/them/them",
+    "pages/theme/theme",
     "pages/cropitem/cropitem"
   ],
   "window":{
