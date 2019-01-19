@@ -4,9 +4,9 @@
 <image src='{{userimg}}' class='gao-center-img' bindtap='changeImage'></image>
 <view class='gao-center-item'>{{username}}</view>
 </view>
-<view class='gao-center-clear'>
+<view class='gao-center-clear' bindtap='clearStorage'>
 <view>清除</view>
-<view>0KB</view>
+<view>{{currentSize}}KB</view>
 </view>
 <view class='gao-center-about'>关于我们</view>
 </view>

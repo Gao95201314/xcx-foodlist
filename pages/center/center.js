@@ -1,4 +1,6 @@
 // pages/center/center.js
+
+const app = getApp();
 Page({
 
   /**
@@ -6,7 +8,8 @@ Page({
    */
   data: {
     username:'',
-    userimg:''
+    userimg:null,
+    currentSize:'',
   },
 
   /**
@@ -16,31 +19,61 @@ Page({
     var that=this;
     wx.getUserInfo({
       success: function (res) {
+         that.setData({
+           username: res.userInfo.nickName,
+           userimg: res.userInfo.avatarUrl,
+         })
+      }
+    });
+    wx.getStorageInfo({
+      success(res) {
+        console.log(res.currentSize);
         that.setData({
-          username:res.userInfo.nickName,
-          userimg: res.userInfo.avatarUrl,
+          currentSize: res.currentSize,
         })
       }
     })
   },
+  //清除缓存
+  clearStorage(){
+    var that=this;
+     wx.clearStorage({
+        success: (res) => {
+          console.log(res);
+          that.setData({
+            currentSize: '0'
+          })
+        }
+      });
+  },
   //换头像
-  changeImage:()=>{
+  changeImage: () => {
+    var that=this;
     wx.chooseImage({
       count: 1,
       sizeType: ['original', 'compressed'],
       sourceType: ['album', 'camera'],
-      success(res) {
+      success:(res)=> {
         // tempFilePath可以作为img标签的src属性显示图片
-        const tempFilePaths = res.tempFilePaths
-         console.log(tempFilePaths);
-         this.setDate({
-           userimg:tempFilePaths,
-         })
+        const tempFilePaths = res.tempFilePaths;
+        //上传图片
+        wx.uploadFile({
+          url: 'https://wx.qlogo.cn/mmopen',
+          filePath: tempFilePaths[0],
+          name: 'file',
+          success:(res)=>{
+            const data = res.data
+            // do something
+            console.log(tempFilePaths[0]);
+            that.setData({
+              userimg: tempFilePaths[0],
+            })
+            console.log(userimg);
+          }
+        })
       }
-    })
-
+    });
   },
-
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -51,8 +84,7 @@ Page({
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
-
+  onShow: ()=> {
   },
 
   /**
